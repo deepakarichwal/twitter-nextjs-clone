@@ -34,7 +34,7 @@ export default function SideBar() {
       </div>
 
       {/* Button */}
-      <button className="bg-blue-500 w-56 h-12 rounded-full text-lg text-white font-bold hidden xl:inline hover:brightness-95 hover:shadow-md transition-shadow duration-100">
+      <button className="bg-sky-500 w-56 h-12 rounded-full text-lg text-white font-bold hidden xl:inline hover:brightness-95 hover:shadow-md transition-shadow duration-100">
         Tweet
       </button>
 
