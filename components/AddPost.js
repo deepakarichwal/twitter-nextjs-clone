@@ -16,7 +16,7 @@ export default function AddPost() {
           <textarea
             placeholder="What's happening?"
             rows="5"
-            className="border-b-2 w-full outline-none placeholder:text-gray-800 p-2 resize-y"
+            className="border-b-2 border-gray-300 w-full outline-none placeholder:text-gray-800 p-2 resize-y"
           />
         </form>
         <div className="flex justify-between items-center">
