@@ -1,5 +1,7 @@
 import Head from "next/head";
 import SideBar from "../components/SideBar";
+import Feed from "../components/Feed";
+import News from "../components/News";
 
 export default function Home() {
   return (
@@ -18,8 +20,10 @@ export default function Home() {
         <SideBar />
 
         {/* Timeline */}
+        <Feed />
 
         {/* Widgets */}
+        <News />
 
         {/* Modal */}
       </main>

@@ -3,12 +3,12 @@ import React from "react";
 
 export default function MiniProfile() {
   return (
-    <div className="flex gap-3 items-center hoverEffect mt-auto">
+    <div className="flex gap-3 items-center justify-center hoverEffect mt-auto">
       <div className="overflow-hidden rounded-full">
         <img
           src="https://mir-s3-cdn-cf.behance.net/user/276/0aa7f4568301073.5ed744a263fff.jpg"
           alt="Profile picture"
-          className="w-10"
+          className="w-10 h-10"
         />
       </div>
 
@@ -17,7 +17,7 @@ export default function MiniProfile() {
         <p className="text-gray-500">@codewithdeepak</p>
       </div>
 
-      <DotsHorizontalIcon className="h-5 ml-8 hidden xl:inline" />
+      <DotsHorizontalIcon className="h-5 ml-6 hidden xl:inline" />
     </div>
   );
 }

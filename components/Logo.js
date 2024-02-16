@@ -7,7 +7,7 @@ export default function Logo() {
       alt="logo"
       width={50}
       height={50}
-      className="hoverEffect hover:bg-blue-100"
+      className="hoverEffect hover:bg-blue-100 p-3 w-14 h-14"
     />
   );
 }
